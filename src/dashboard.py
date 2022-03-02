@@ -12,7 +12,8 @@ from plotly.offline import iplot, init_notebook_mode
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 
-
+from jupyterlab_dash import AppViewer
+viewer = AppViewer()
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
@@ -317,5 +318,6 @@ def update_graph(water_map_input,
 
 
 # ------------------------------------------------------------------------------
-if __name__ == '__main__':
-    app.run_server(debug=True)
+#if __name__ == '__main__':
+#app.run_server(debug=True)
+viewer.show(app)
