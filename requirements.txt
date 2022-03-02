@@ -1,7 +1,7 @@
 pandas
 pyproj
 dash
-dash_bootstrap_components as dbc
+dash_bootstrap_components
 matplotlib.pyplot 
 plotly.express
 plotly.graph_objs
