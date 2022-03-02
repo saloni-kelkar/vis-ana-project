@@ -6,5 +6,4 @@ matplotlib
 plotly
 geopandas
 datetime
-plotly.offline
 wordcloud 
