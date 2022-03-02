@@ -318,6 +318,8 @@ def update_graph(water_map_input,
 
 
 # ------------------------------------------------------------------------------
-#if __name__ == '__main__':
+if __name__ == '__main__':
 #app.run_server(debug=True)
-viewer.show(app)
+    app.run_server(host='0.0.0.0',debug=True)
+    
+#viewer.show(app)
